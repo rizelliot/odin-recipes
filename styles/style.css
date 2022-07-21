@@ -1,65 +1,51 @@
 body {
-    background-color: #3C1053FF;
+  background-color: #3c1053ff;
 }
 
 .title {
-    background-color: #DF6589FF;
-    color: #3C1053FF;
-    text-align: center;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 10rem;
-    margin:0;
-}
-
-
-
-.img-wrapper {
-
-    display: flex;
-    justify-content: center;
-
-
-}
-
-.background {
-    margin:0;
-    display: block;
-}
-
-ul>li {
-    text-align: center;
-    line-height: 6rem;
-    font-size: 5rem;
-    color:#DF6589FF;
-}
-
-ul>li>a {
-    color: rgb(194, 194, 194)
+  background-color: #df6589ff;
+  color: #3c1053ff;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  font-size: 10rem;
+  margin: 0;
 }
 
 .card-wrapper {
-
-display: flex;
-justify-content: center;
-
+  display: flex;
+  justify-content: center;
 }
 
 .card {
-   background-color: rgb(253, 248, 248);
-   text-align:center;
-   width: 350px;
-   height:auto;
-   margin: 3rem;
-   outline: #DF6589FF solid 1em;
-   
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(253, 248, 248);
+  text-align: center;
+  width: 500px;
+  height: 400px;
+  margin: 3rem;
+  outline: #df6589ff solid 1em;
 }
 
-.card>img {
-    width: 100%;
-    height: auto;
-    margin:0;
-   
-    
+svg {
+  width: 100%;
 }
 
+.card > h1,
+p {
+  margin: 2rem;
+}
 
+.card > h1 {
+  font-family: "Cabin", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.card > p {
+  font-family: "Cabin", sans-serif;
+  font-weight: 400;
+  opacity: 80%;
+  max-width: 15rem;
+}
