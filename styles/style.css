@@ -23,7 +23,7 @@ body {
   background-color: rgb(253, 248, 248);
   text-align: center;
   width: 500px;
-  height: 400px;
+  height: auto;
   margin: 3rem;
   outline: #df6589ff solid 1em;
 }
