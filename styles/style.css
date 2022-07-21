@@ -1,4 +1,25 @@
-img {
-    height: auto;
-    width: 400px;
+body {
+    background: url(/images/waves.svg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 100vh;
+}
+
+
+.title {
+    text-align: center;
+}
+
+
+.img-wrapper {
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+ul>li {
+    text-align: center;
 }
