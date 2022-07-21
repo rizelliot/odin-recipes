@@ -12,29 +12,36 @@ body {
 }
 
 .card-wrapper {
+  z-index: 3;
   display: flex;
   justify-content: center;
 }
 
 .card {
+  border-radius: 6px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(253, 248, 248);
   text-align: center;
   width: 500px;
   height: auto;
   margin: 3rem;
   outline: #df6589ff solid 1em;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(https://jesspryles.com/wp-content/uploads/2015/12/steak-tartare-39.jpg);
+  background-size: cover;
+  background-blend-mode: darken;
 }
 
 svg {
+  z-index: -1;
   width: 100%;
 }
 
 .card > h1,
 p {
   margin: 2rem;
+  color: white;
 }
 
 .card > h1 {
