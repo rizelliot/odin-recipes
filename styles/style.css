@@ -9,38 +9,49 @@ body {
   font-family: "Bebas Neue", cursive;
   font-size: 10rem;
   margin: 0;
+  outline: solid white;
 }
 
 .card-wrapper {
-  z-index: 3;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .card {
+  position: relative;
   border-radius: 6px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: ;
   text-align: center;
   width: 500px;
   height: auto;
   margin: 3rem;
   outline: #df6589ff solid 1em;
+}
+
+.tartare-card {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(https://jesspryles.com/wp-content/uploads/2015/12/steak-tartare-39.jpg);
   background-size: cover;
-  background-blend-mode: darken;
 }
 
-svg {
-  z-index: -1;
-  width: 100%;
+.mince-card {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(https://togetherasfamily.com/wp-content/uploads/2015/06/homemade-spaghetti-meat-sauce-1.jpg);
+  background-size: cover;
+}
+
+.ramen-card {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(https://www.rzeklam.pl/wp-content/uploads/2020/03/miso-ramen-przepis.jpg);
+  background-size: cover;
 }
 
 .card > h1,
 p {
-  margin: 2rem;
   color: white;
 }
 
@@ -55,4 +66,12 @@ p {
   font-weight: 400;
   opacity: 80%;
   max-width: 15rem;
+}
+
+i {
+  color: #3c1053ff;
+}
+
+button {
+  padding: 10px;
 }
